@@ -10,11 +10,11 @@ function Header() {
 
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Produtos</a></li>
-                <li><a href="">Avaliações</a></li>
-                <li><a href="">Newsletter</a></li>
-                <li><a href="">Contatos</a></li>
+                <li><a href="header">Home</a></li>
+                <li><a href="#section-products">Produtos</a></li>
+                <li><a href="#section-about">Sobre</a></li>
+                <li><a href="#section-form">Newsletter</a></li>
+                <li><a href="#section-location">Localização</a></li>
             </ul>
         </nav>
     </header>

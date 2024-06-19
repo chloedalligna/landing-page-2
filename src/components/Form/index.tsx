@@ -8,7 +8,7 @@ function Form() {
     
     return (
         <section id='section-form'>
-            <h2>Cadastre-se na nossa newsletter para nunca perder as novidades luxuosas!</h2>
+            <h2 className='h2-default'>Cadastre-se na nossa newsletter para nunca perder as novidades luxuosas!</h2>
 
             <form action="submit">
                 <fieldset className="fieldset-form">

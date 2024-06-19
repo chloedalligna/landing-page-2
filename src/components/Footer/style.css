@@ -1,0 +1,52 @@
+footer {
+    width: calc(100% - 4rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    gap: 1rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    background-color: snow;
+}
+
+
+footer > div {
+    width: 60vw;
+    align-items: center;
+}
+
+footer > div > span {
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+svg {
+    cursor: pointer;
+}
+
+#patente {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > div > ul > li {
+    list-style: none;
+}
+
+footer > div > ul > li > a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    &:hover {
+        color: slateblue;
+    }
+}

@@ -3,6 +3,7 @@ import './style.css'
 function Feedback() {
   return (
     <section id='section-feedback'>
+        <h2 className='h2-default'>Avaliações de quem já adquiriu sua Luxo de Mulher!</h2>
 
         <div className='row-default'>
             <div className='rate'>

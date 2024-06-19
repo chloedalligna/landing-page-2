@@ -1,5 +1,5 @@
 #section-home {
-    width: 100%;
+    width: calc(100% - 8rem);
     height: auto;
     display: flex;
     flex-direction: column;

@@ -2,7 +2,9 @@ import './style.css'
 
 function Location() {
   return (
-    <div>Location</div>
+    <section id='section-location'>
+  
+    </section>
   )
 }
 

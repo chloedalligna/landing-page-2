@@ -4,21 +4,27 @@
 }
 
 #section-form {
-    width: 100%;
+    width: calc(100% - 8rem);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 1rem;
     padding: 4rem;
-    background-color: cornflowerblue;
+    gap: 2rem;
+    background-color: snow;
+}
+
+#section-form > h2 {
+    font-size: 2rem;
 }
 
 #section-form > form {
     width: 40%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .fieldset-form {
@@ -34,12 +40,13 @@
     border-radius: 0.5rem;
     border: 0;
     font-size: 1rem;
-    background-color: chartreuse;
+    border: 2px solid lightgray;
+    background-color: white;
 }
 
 .fieldset-form > label {
     font-size: 1.3rem;
-    color: blue;
+    color: black;
 }
 
 #section-form > form > button {

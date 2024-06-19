@@ -2,6 +2,7 @@ import './style.css'
 
 function Products() {
   return (
+    <div id='background'>
     <section id='section-products'>
         <div className='row-default'>
             <div className='product-card'>
@@ -57,6 +58,7 @@ function Products() {
 
         <button className='button-default'>Mais produtos</button>
     </section>
+    </div>
   )
 }
 
