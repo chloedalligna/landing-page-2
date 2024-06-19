@@ -1,0 +1,38 @@
+#section-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 4rem 0;
+    padding: 4rem;
+    gap: 2rem;
+    background-image: url("https://harpersbazaar.uol.com.br/wp-content/uploads/2021/04/chanel-bolsa-destaque.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#section-home > img {
+    background-color: azure;
+}
+
+#img3 {
+    height: 22vh;
+    padding: 1rem;
+}
+
+#img4 {
+    height: 10vh;
+}
+
+#section-home > h3 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: azure;
+}
+
+#section-home > button {
+    font-size: 2rem;
+}
+
